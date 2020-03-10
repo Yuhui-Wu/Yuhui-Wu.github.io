@@ -1,232 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Yuhui - Portfolio</title>
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+			<symbol id="icon-cross" viewBox="0 0 24 23">
+				<title>cross</title>
+				<path d="M23.865 3.677c.197-.383.164-.818-.008-1.18.048-.41-.06-.827-.448-1.147L22.323.457c-.636-.524-1.632-.689-2.25 0a155.348 155.348 0 0 1-8.797 9.001C9.011 7.342 6.72 5.255 4.443 3.165c-.8-.734-1.956-.503-2.458.37C1.253 3.9.659 4.374.168 5.182c-.233.386-.215.872 0 1.258 1.47 2.635 4.31 4.951 6.646 7.083-.313.28-.623.562-.942.836-3.146 2.702-5.268 4.416-1.331 7.187.053.037.107.029.161.05.076.036.148.06.232.074.026 0 .05.005.075.003.082.007.16.027.243.011 2.117-.415 4.085-2.074 5.872-3.9 1.74 1.715 3.592 3.353 5.63 4.325.485.232 1.063.097 1.436-.227.626.047 1.197-.342 1.484-.901.042-.026.07-.041.116-.07.91-.569.993-1.701.32-2.482-1.522-1.762-3.138-3.438-4.787-5.084 2.968-2.9 6.674-6.027 8.542-9.667z"/>
+			</symbol>
+		</svg>
+		<main>
+			<div class="content">
+				<header class="codrops-header">
+					<!-- <h1 class="codrops-header__title">Yuhui Wu - Portfolio</h1> -->
+				</header>
+			</div>
+			<div class="content">
+				<div class="grid">
+					
+					<a class="grid__item" href="#">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/logo.png" alt="Some image"/>
+							<h4 class="box__text"><span class="box__text-inner">Portfolio</span></h4>
 
-  <title>
-    
-      Portfolio - Yuhui Wu
-    
-  </title>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-1">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/AmberWeb.png" alt="Some image"/>
+							<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="ClickFF">ClickFF</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">C# asp.net React</span></h4>
+							<!-- <div class="box__deco">&#10014;</div> -->
+							<p class="box__content">All-in-one tools for computing molecular force field</p>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-2">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/twitter.png" alt="Some image"/>
+							<h3 class="box__title box__title--straight box__title--top"><span class="box__title-inner" data-hover="Twitter Web Service">Twitter Web Service</span></h3>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated1">Java</span></h4>
+							<p class="box__content">A performant and reliable web service that handle 20k requests per second</p>
 
-  <meta name="description" content="Yuhui Wu - Personal Website">
-  <meta name="theme-color" content="#a58e19"/>
-  <link rel="icon" type="image/png" href="images/icon.png"/>
-  <link rel="stylesheet" href="css/main.css">
+							<!-- <div class="box__deco box__deco--top">MySQL</div> -->
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-3">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/taxi.png" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Uber Api">Uber Api</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Python ML Kafka</span></h4>
+							<p class="box__content">A powerful system provides real-time fare prediction and driving-matching</p>
 
+							<div class="box__deco">&#10032;</div>
+						</div>
+					</a>
 
-</head>
+					<a class="grid__item" href="#preview-4">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/adbm.png" alt="Some image"/>
+							<h3 class="box__title box__title--straight box__title--top"><span class="box__title-inner" data-hover="Data Visualization">Data Visualization</span></h3>
+							<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Node.js MongoDB</span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-5">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/ir.png" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Multimedia">Multimedia</span></h3>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Java Spring Boot MySQL</span></h4>
+						</div>
+					</a>
 
+				</div>
+			</div>
+			<div class="overlay">
+				<div class="overlay__reveal"></div>
+				<div class="overlay__item" id="preview-1">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/AmberWeb.png" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Clickff</span></h3>
+						<h4 class="box__text"><span class="box__text-inner">C# asp.net React</span></h4>
+					</div>
+					<p class="overlay__content">https://mulan.pharmacy.pitt.edu/amberweb/
+						<br />
+						<br />A web application with a desktop plugin that bridges multiple molecular simulation programs and serves as an integrated online computational platform.
+						<br />· Constructed a task management system based on Asp.net MVC framework and improved the extensibility of function
+						<br />· Designed and built responsive user interface using React, Sass and HTML which support reusable components
+						<br />· Implemented a set of RESTful APIs that encapsulated powerful GPU-Accelerated computing resources in backend with Façade Pattern to provide web service for third-party developers and reduced latency by 70% via Job Queue and Redis
+					</p>
+				</div>
+				<div class="overlay__item" id="preview-2">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/twitter.png" alt="Some image"/>
+						<!-- <h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Twitter Server</span></h3> -->
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner">Java Vert.x PostgreSQL Azure</span></h4>
+						<!-- <div class="box__deco box__deco--top">&#10115;</div> -->
+					</div>
+					<p class="overlay__content">Led a team of 3 to build performant and reliable web services to process HTTP requests for queries of Twitter data and to conduct data analytics 
+						<br />· Developed fully functional web servers in the frontend with Java and Vert.x framework to process queries using multi-threaded design and in-memory cache to achieve 18K responses per second and zero error rate
+						<br />· Optimized the schema of database and used PostgreSQL to handle large scale data and a high volume of requests
+						<br />· Implemented Extract-Transform-Load on a Twitter dataset (~1TB) through distributed batch processing by Scala and performed cluster computing via Spark on Azure, achieved 90% less running time compared with Hadoop MapReduce
+						<br />· Wrapped the web servers in Docker and deployed on Amazon ECS for Auto Scaling
 
-<body class="enter-fade">
-  <header class="constrain">
-    <div class="peekout">
-      <img class="name-logo" src="images/logo.png">
-    </div>
-  </header>
-  <section class="constrain intro vp-8">
-    hi <span id="greet">there</span>! I'm Yuhui<br class="rbr">
-    welcome to my portfolio.
-  </section>
+					</p>
+					<!-- <p class="overlay__content">Java, Scala, Vert.x, PostgreSQL, Docker, AWS, Azure</p> -->
+				</div>
+				<div class="overlay__item" id="preview-3">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/taxi.png" alt="Some image"/>
+						<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Python Flask Kafka Samza</span></h4>
+						<div class="box__deco">&#10032;</div>
+					</div>
+					<p class="overlay__content">Implemented a Uber-like backend system that could process ride requests and provide real-time taxi fare estimate, driver matching and advertising service
+						<br />· Trained a fare predictor on Google ML Engine with XGBoost model based on over 10 million NYC taxi records and performed hyperparameter tuning to improve the accuracy and served to support real-time prediction
+						<br />· Developed RESTful APIs with Python and Flask that could accept text, speech or image queries and extract locations coordinates using Google Cloud ML API and responds with text or speech result of price estimated
+						<br />· Converted ride requests and profile of clients into real-time data streams with Java and Apache Kafka
+						<br />· Implemented data processing pipelines to consume and analyze data streams via Apache Samza and deployed on YARN cluster to provide live driver-matching and advertising
+					</p>
+				</div>
+				<div class="overlay__item" id="preview-4">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/adbm.png" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--top"><span class="box__title-inner">Data Visualization</span></h3>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner">Node.js MongoDB</span></h4>
+					</div>
+					<p class="overlay__content">An application provides data visualization of given queries.
+						<br />· Developed backend with Node.js and used Express.js to support data interaction
+						<br />· Built database with MongoDB and optimized query performance by creating indexes
+						<br />· Used EJS Template Engine to render data to the frontend and chart.js to conduct visualization
+					</p>
+				</div>
+				
+				<div class="overlay__item" id="preview-5">
+					<div class="box">
+						<div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/ir.png" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--top"><span class="box__title-inner">Multimedia Learning System</span></h3>
+						<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Java Spring Boot MySQL</span></h4>
+					</div>
+					<p class="overlay__content">A learning platform with a designed search engine that is dedicated to providing the most suitable video material for student
+						<br />· Build the search engine that provide detailed information based on users’ input of the description of the paper problem
+						<br />· Created the front end with React and use Redux and the state management to deal with the data from MySQL database
+						<br />· Implemented the N-Gram model and Language Model using Java and MapReduce and used MySQL as backend database to store result generated by Language Model
+					</p>
+				</div>
 
-  <script type="text/javascript">
-    var getQueryString = function ( field, url ) { return new RegExp( '[?&]' + field + '=([^&#]*)', 'i' ).exec(url ? url : window.location.href) ? new RegExp( '[?&]' + field + '=([^&#]*)', 'i' ).exec(url ? url : window.location.href)[1] : null; };
-    if (getQueryString("hi") != null) { if (getQueryString("hi").includes("%3Cscript%3E")) { document.getElementById("greet").textContent = "wannabe pentester"; } else { document.getElementById("greet").textContent = getQueryString("hi").replace(/%20/gi, ' ').replace(/%27/gi, '’').replace(/%26/gi, '&'); } }
-  </script>
-
-
-
-
-
-  <nav class="nav constrain small no-print">
-    <ul class="nls grid fives">
-      
-      <li class="grid-child">
-        <a class="nav-item active" href="index.html">
-          <span class="nav-span">Portfolio</span>
-        </a>
-      </li>
-
-    
-      <li class="grid-child">
-        <a class="nav-item " href="resume.html">
-          <span class="nav-span">Résumé</span>
-        </a>
-      </li>
-
-
-    </ul>
-  </nav>
-
-<main class="vp-8">
-
-  <section class="constrain vp-8" id="case-studies">
-  <h2 class="peekout title">Selected projects</h2>
-  <div class="case-list alternate vp-4">
-  
-    <a class="sneakylink block vp-8" href="#">
-      <div class="flex">
-        <div class="flex-img">
-          
-          <img src="images/clickff.png" />
-          
-        </div>
-        <div class="flex-text">
-          <h3 class="f-2xl light caps">ClickFF Platform</h3>
-          <h5 class="caps vp-1 regular f-med">CDAR: Computational Drug Abuse Research Center</h5>
-
-          <p class="easyread measure italic vp-2">How to share our computational resources with third-party researchers and developers?</p>
-          <p class="easyread measure">A web application with a desktop plugin that bridges multiple molecular simulation programs and serves as an integrated online computational platform.</p>
-        </div>
-      </div>
-    </a>
-  
-    <a class="sneakylink block vp-8" href="#">
-      <div class="flex">
-        <div class="flex-img">
-          
-          <img src="images/twitter2.png" />
-          
-        </div>
-        <div class="flex-text">
-          <h3 class="f-2xl light caps">twitter analytics web service</h3>
-          <h5 class="caps vp-1 regular f-med">Final project of Cloud Computing</h5>
-
-          <p class="easyread measure italic vp-2">How our web service meets the requirements of the query, throughput and budget?</p>
-          <p class="easyread measure">A performant and reliable web service with a web-tier serving http requests and a storage-tier serving different data queries.</p>
-        </div>
-      </div>
-    </a>
-  
-    <a class="sneakylink block vp-8" href="#">
-      <div class="flex">
-        <div class="flex-img">
-          
-          <img src="images/taxi.png" />
-          
-        </div>
-        <div class="flex-text">
-          <h3 class="f-2xl light caps">taxi app backend system</h3>
-          <h5 class="caps vp-1 regular f-med">Personal Project</h5>
-
-          <p class="easyread measure italic vp-2">How the system works behind a Uber-like taxi application?</p>
-          <p class="easyread measure">A powerful system provides real-time fare prediction using trained Machine Learning Model and supports driving-matching & advertising service.</p>
-        </div>
-      </div>
-    </a>
-  
-    <a class="sneakylink block vp-8" href="#">
-      <div class="flex">
-        <div class="flex-img">
-          
-          <img src="images/ir.png" />
-          
-        </div>
-        <div class="flex-text">
-          <h3 class="f-2xl light caps">Multimedia Online Learning System</h3>
-          <h5 class="caps vp-1 regular f-med">Final Project of Information Retrieval</h5>
-
-          <p class="easyread measure italic vp-2">How might we provide the best search result for our users?</p>
-          <p class="easyread measure">A learning platform with a designed search engine that is dedicated to providing the most suitable video material for students.</p>
-        </div>
-      </div>
-    </a>
-  
-  </div>
-</section>
-
-  
-<section class="constrain vp-4" id="further-works">
-  <h2 class="peekout title">Other works</h2>
-  <ul class="nls grid twos vp-4">
-    
-    <li class="post-item-half">
-
-          <div class="imgspace">
-            <figure style="width: 100%;">
-              <img src="images/adbm.png" alt=""/>
-            </figure>
-          </div>
-        
-            <h3 class="title-the-mead vp-1">Terrorism Data Visualization</h3>
-            <p class="serif f-semi italic" style="margin-bottom: 1rem">An application provides data visualization of given queries.</p>
-            <p class="serif f-semi">
-               · Developed backend with <b>Node.js</b> and used <b>Express.js</b> to support data interaction<br class="rbr">
-               · Built database with <b>MongoDB</b> and optimized query performance by creating indexes<br class="rbr">
-               · Used <b>EJS Template Engine</b> to render data to the frontend and <b>chart.js</b> to conduct visualization
-            </p>
-      
-    </li>
-    
-    <li class="post-item-half">
-      
-          <div class="imgspace">
-            <figure style="width: 100%;">
-              <img src="images/autocomplete.png" alt=""/>
-            </figure>
-          </div>
-      
-            <h3 class="title-the-mead vp-1">Autocomplete Search Panel</h3>
-            <p class="serif f-semi italic" style="margin-bottom: 1rem">A word-based autocomplete function utilizing N-Gram model.</p>
-            <p class="serif f-semi">
-                · Implemented the N-Gram model and Language Model using <b>Java</b> and <b>MapReduce</b><br class="rbr">
-                · Created front-end search panel with <b>JQuery</b>, <b>PHP</b> and <b>Ajax</b> to achieve real-time autocompletion<br class="rbr">
-                · Used <b>MySQL</b> as backend database to store result generated by Language Model
-             </p>
-            <!-- <div class="vp-1 smallcaps spaced-lg">November 2018</div> -->
-      
-    </li>
-    
-  </ul>
-</section>
-</main>
-
-<!-- <div class="vp-4"></div> -->
-
-<nav class="nav constrain small no-print">
-  <ul class="nls grid fives">
-    
-      <li class="grid-child">
-        <a class="nav-item active" href="index.html">
-          <span class="nav-span">Portfolio</span>
-        </a></li>
-
-    
-      <li class="grid-child">
-        <a class="nav-item " href="resume.html">
-          <span class="nav-span">Résumé</span>
-        </a></li>
-
-
-  </ul>
-</nav>
-
-
-<footer class="nav constrain vp-4 small side-scroll no-print">
-  <ul class="nls">
-    <li><a class="nav-item"  href="https://github.com/Yuhui-Wu">Github</a></li>
-    <li><a class="nav-item"  href="https://www.linkedin.com/in/yuhui-wu-53a895158/">Linkedin</a></li>
-    <li><a class="nav-item"  href="mailto:yuhui.on@outlook.com">Email</a></li>
-    <li class="float-right" style="margin-right: 0;">
-        <a class="nav-item" href="portfolio.html">
-          <img src="images/icon.png" class="mark"/>
-        </a>
-      </li>
-  </ul>
-  
-</footer>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-77249884-3', 'auto');
-  ga('send', 'pageview');
-</script>
-
-  </body>
+				<button class="overlay__close"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
 </html>
